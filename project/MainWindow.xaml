@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="WE LOVE HUSSEIN!" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="60"/>
+        <Label Content="WE LOVE HUSSEIN!" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="60" FontWeight="Black" FontStyle="Italic"/>
+        <Label Content="Do you love hussein?" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="30" FontWeight="Black" FontStyle="Italic" Margin="0,290,0,0"/>
+        <ComboBox x:Name="choices" Height="50" Width="300" Margin="250,345,250,39">
+            <ComboBoxItem Content="YES!"/>
+            <ComboBoxItem Content="NO!"/>
+            <ComboBoxItem Content="HELL NO!"/>
+
+        </ComboBox>
     </Grid>
 </Window>
