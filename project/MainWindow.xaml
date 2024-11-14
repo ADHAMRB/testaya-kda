@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="WE LOVE HUSSEIN!" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="60"/>
+        <Label Content="WE LOVE HUSSEIN!" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="60" FontWeight="Black" FontStyle="Italic"/>
     </Grid>
 </Window>
